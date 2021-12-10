@@ -54,7 +54,7 @@ video {
 }
 
 .musical {
-  width: 500px;
+  max-width: 500px;
   margin: auto;
   margin-top: 8vh;
   color: #FDFDFD;
@@ -64,11 +64,21 @@ video {
 }
 
 .musical-header {
-  color: #E1C771;
-  width: 450px;
+  max-width: 450px;
   margin: auto;
   margin-top: 8vh;
   margin-bottom: -9.9vh;
+}
+
+.musical-header a {
+  font-size: xx-large;
+  font-weight: bold;
+  text-decoration: none;
+  color: #E1C771;
+}
+
+.musical-header a:hover {
+  text-shadow: 0 0 20px yellow;
 }
 
 .back-button {
