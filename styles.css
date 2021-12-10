@@ -1,0 +1,188 @@
+/* Quality of life setup */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+/* Setup end */
+
+body {
+  background-color: aliceblue;
+}
+
+#intro {
+  padding: 30px 0px;
+}
+
+.smaller {
+  max-width: 320px;
+}
+
+.bottom-border {
+  border-bottom: 6px rgb(122, 212, 241) solid;
+}
+
+.blue-back {
+  background-color: lightblue;
+  padding: 70px 0px;
+}
+
+/* Centering */
+
+.card {
+  max-width: 500px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.title {
+  max-width: 630px;
+  padding-bottom: 20px;
+  border-bottom: 3px steelblue solid;
+}
+
+.title-img-card {
+  max-width: 1100px;
+}
+
+.title-img {
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  padding: 10px 15px;
+}
+
+.shadow {
+  box-shadow: 5px 5px 20px cadetblue;
+}
+
+.page-links {
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.page-link {
+  margin: 0 23px 0 23px;
+  text-decoration: none;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+.page-link:hover {
+  text-decoration: underline;
+  color: cadetblue;
+  cursor: pointer;
+}
+
+.name {
+  color: darkblue;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 9px;
+  font-size: 80px;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+
+/* Hover effect on name */
+
+.name:hover {
+  color: purple;
+  cursor: crosshair;
+}
+
+.azure {
+  background-color: azure;
+}
+
+.it {
+  font-style: italic;
+}
+
+.fancy-title {
+  background-color: cornflowerblue;
+  max-width: 380px;
+  padding: 3px 10px;
+  border-bottom: 6px darkblue solid;
+  color: darkblue;
+  margin: -30px auto 30px auto;
+  border-radius: 5px;
+}
+
+.fancy-title:hover {
+  color: purple;
+}
+
+.img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.img-card {
+  padding: 20px;
+  padding-bottom: 0px;
+  margin: 60px auto;
+  border: 3px solid rgb(122, 212, 241);
+  max-width: min-content;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px lightblue;
+}
+
+/* Text deco */
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: cadetblue;
+}
+
+/* Demo button, make it fancy at the end */
+
+.move-next {
+  margin: 40px auto;
+  max-width: 200px;
+  text-align: center;
+}
+
+/* These are the extra styles to be added after the bonus CSS */
+.move-next {
+  background-color: lightblue;
+  width: 110px;
+  height: 60px;
+  /* Note padding top on this button is a very cheese method to center
+    something vertically - usually we transform/translate or use flexbox or
+    use line-height or absolute positioning etc. This method can only be done
+    if we're setting explicit height values for our div as well, because our
+    padding is depending on our height. */
+  padding-top: 14px;
+  border-radius: 15px;
+  font-size: 18px;
+  border: 2px solid darkslateblue;
+}
+
+.move-next:hover {
+  background-color: rgb(122, 212, 241);
+  cursor: pointer;
+}
+
+.move-next-text {
+  text-decoration: none;
+  color: darkslateblue;
+}
+

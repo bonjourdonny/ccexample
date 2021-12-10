@@ -1,0 +1,104 @@
+/* Quality of life setup */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Setup end */
+
+body {
+  background-color: aliceblue;
+}
+
+#intro {
+  padding: 30px 0px;
+}
+
+.smaller {
+  max-width: 320px;
+}
+
+.bottom-border {
+  border-bottom: 6px deepskyblue solid;
+}
+
+.blue-back {
+  background-color: lightblue;
+  padding: 70px 0px;
+}
+
+/* Centering */
+
+.card {
+  max-width: 500px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.name {
+  color: darkblue;
+}
+
+/* Hover effect on name */
+
+.name:hover {
+  color: purple;
+}
+
+.azure {
+  background-color: azure;
+}
+
+.it {
+  font-style: italic;
+}
+
+.fancy-title {
+  background-color: cornflowerblue;
+  max-width: 380px;
+  padding: 3px 10px;
+  border-bottom: 6px darkblue solid;
+  color: darkblue;
+  margin: -30px auto 30px auto;
+  border-radius: 5px;
+}
+
+.fancy-title:hover {
+  color: purple;
+}
+
+.img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.img-card {
+  padding: 20px;
+  padding-bottom: 0px;
+  margin: 50px auto;
+  border: 3px solid deepskyblue;
+  max-width: min-content;
+  border-radius: 10px;
+}
+
+/* Text deco */
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: cadetblue;
+}
